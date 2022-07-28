@@ -1,0 +1,124 @@
+{
+    "questions": [
+        {
+            "question": "What is full from of CPU ?",
+            "option_1": "Central Processing Unit",
+            "option_2": "Central Programing Unit",
+            "option_3": "Central Processor Unit",
+            "option_4": "None of these",
+            "answer": "Central Processing Unit"
+        },
+        {
+            "question": "Who developed the Python language ?",
+            "option_1": "Zim Den",
+            "option_2": "Guido van Rossum",
+            "option_3": "Niene Stom",
+            "option_4": "Wick van Rossum",
+            "answer": "Guido van Rossum"
+        },
+        {
+            "question": "In which year was the Python language developed?",
+            "option_1": "1995",
+            "option_2": "1972",
+            "option_3": "1981",
+            "option_4": "1989",
+            "answer": "1989"
+        },
+        {
+            "question": "In which language is Python written?",
+            "option_1": "English",
+            "option_2": "PHP",
+            "option_3": "C",
+            "option_4": "All of the above",
+            "answer": "C"
+        },
+        {
+            "question": "Which one of the following is the correct extension of the Python file?",
+            "option_1": ".py",
+            "option_2": ".python",
+            "option_3": ".p",
+            "option_4": "None of these",
+            "answer": ".py"
+        },
+        {
+            "question": "In which year was the Python 3.0 version developed?",
+            "option_1": "2008",
+            "option_2": "2000",
+            "option_3": "2010",
+            "option_4": "2005",
+            "answer": "2008"
+        }
+        , {
+            "question": "Which character is used in Python to make a single line comment?",
+            "option_1": "#",
+            "option_2": "//",
+            "option_3": "/",
+            "option_4": "!",
+            "answer": "#"
+        }
+        , {
+            "question": "Which of the following statements is correct regarding the object-oriented programming concept in Python?",
+            "option_1": "Classes are real-world entities while objects are not real",
+            "option_2": "Objects are real-world entities while classes are not real",
+            "option_3": "Both objects and classes are real-world entities",
+            "option_4": "All of the above",
+            "answer": "Objects are real-world entities while classes are not real"
+        }
+        , {
+            "question": "Which of the following is not a keyword in Python language?",
+            "option_1": "val",
+            "option_2": "raise",
+            "option_3": "try",
+            "option_4": "with",
+            "answer": "val"
+        }
+        , {
+            "question": "In C, parameters are always",
+            "option_1": "Passed by value",
+            "option_2": "Passed by reference",
+            "option_3": "Non-pointer variables are passed by value and pointers are passed by reference",
+            "option_4": "Passed by value result",
+            "answer": "Passed by value"
+        }
+        , {
+            "question": "Which of the following is the address operator?",
+            "option_1": "@",
+            "option_2": "#",
+            "option_3": "&",
+            "option_4": "%",
+            "answer": "&"
+        }
+        , {
+            "question": "C++ is a ___ type of language.",
+            "option_1": "High-level Language",
+            "option_2": "Low-level language",
+            "option_3": "Middle-level language",
+            "option_4": "None of the above",
+            "answer": "Middle-level language"
+        }
+        , {
+            "question": "Which of the following is the correct syntax for printing the address of the first element?",
+            "option_1": "array[0];",
+            "option_2": "array[1];",
+            "option_3": "array[2];",
+            "option_4": "None of the above",
+            "answer": "array[0];"
+        }
+        , {
+            "question": "Which arithmetic operators can we NOT use with strings?",
+            "option_1": "-",
+            "option_2": "+",
+            "option_3": "*",
+            "option_4": "All of the above",
+            "answer": "-"
+        }
+        , {
+            "question": "Which function removes a set’s first and the last element from a list?",
+            "option_1": "pop",
+            "option_2": "remove",
+            "option_3": "dispose",
+            "option_4": "discard",
+            "answer": "pop"
+        }
+    ]
+}

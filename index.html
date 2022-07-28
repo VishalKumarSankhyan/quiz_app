@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <title>Quiz App</title>
+
+    <!-- browser them color-->
+    <meta name="theme-color" content="#0099ff">
+
+    <!-- description -->
+    <meta name="description" content="Super app for home automation using Wifi">
+
+    <!-- author -->
+    <meta name="author" content="Vishal Kumar Sankhyan">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="quiz_app_app_body">
+
+        <div class="quiz_app_app_navbar">
+
+            <div class="quiz_app_menu_btn">
+                <svg viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fill-rule="evenodd" transform="translate(-3 -6)">
+                        <path d="m0 0h24v24h-24z"></path>
+                        <path
+                            d="m1 12c-.55228475 0-1-.4477153-1-1s.44771525-1 1-1h16c.5522847 0 1 .4477153 1 1s-.4477153 1-1 1zm0-5c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1h16c.5522847 0 1 .44771525 1 1s-.4477153 1-1 1zm-1-6c0-.55228475.44771525-1 1-1h16c.5522847 0 1 .44771525 1 1s-.4477153 1-1 1h-16c-.55228475 0-1-.44771525-1-1z"
+                            fill="currentColor" fill-rule="nonzero" transform="translate(3 6)"></path>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="quiz_app_title">
+                Quiz App
+            </div>
+
+            <div class="quiz_app_sign_in">
+                Sign in
+            </div>
+
+        </div>
+
+        <div id="quiz_app_side_menu_bg" class="quiz_app_side_menu_background"></div>
+
+        <div id="quiz_app_side_menu" class="quiz_app_side_menu">
+
+            <div class="side_menu_top">
+                <div class="side_menu_option_user_icon_box">
+                    <div class="side_menu_option_user_icon_sub_box">
+                        <img src="user_p.jpg" alt="user icon" srcset="">
+                    </div>
+                </div>
+                <div class="side_menu_top_title">User</div>
+            </div>
+
+            <div id="side_menu_bottom" class="side_menu_bottom">
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">Home</div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">My Account</div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">Notification</div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">Dark Theme</div>
+                    <div class="side_menu_option_checkbox">
+                        <label class="switch" for="dark_mode_toggle_id">
+                            <input type="checkbox" id="dark_mode_toggle_id">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">About us</div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">Settings</div>
+                </div>
+
+                <div class="side_menu_option">
+                    <div class="side_menu_option_title">Log Out</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="quiz_app_quiz_timer_box">
+            <div class="quiz_app_quiz_timer"> </div>
+        </div>
+        <div class="quiz_app_question_box">
+
+            <div class="quiz_app_question_sub_box">
+
+                <div class="quiz_app_question_fg"></div>
+                <div class="quiz_app_loader"></div>
+
+                <div class="quiz_app_score_box">
+                    <div class="quiz_app_score_sub_box">
+                        <label  class="quiz_app_score_box_name_title">Name  : </label>
+                        <label class="quiz_app_score_box_score_title">Score : </label>
+                        <label  class="quiz_app_score_box_time_title">Time  : </label>
+                    </div>
+                </div>
+
+                <input type="text" id="quiz_app_input" placeholder="Name">
+
+                <h3 class="quiz_app_question_title" id="quiz_app_question_title">
+
+                </h3>
+
+                <div class="quiz_app_option_box">
+
+                    <label class="quiz_app_question_option" id="quiz_app_question_option_1" for="option_1">
+
+                    </label>
+                    <label class="quiz_app_question_option" id="quiz_app_question_option_2" for="option_1">
+
+                    </label>
+                    <label class="quiz_app_question_option" id="quiz_app_question_option_3" for="option_1">
+
+                    </label>
+                    <label class="quiz_app_question_option" id="quiz_app_question_option_4" for="option_1">
+
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="quiz_app_quiz_btn_box">
+            <div class="quiz_app_quiz_start_btn">
+                Start
+            </div>
+            <div class="quiz_app_quiz_try_again_btn">
+                Try Again
+            </div>
+            <div class="quiz_app_quiz_fines_btn">
+                Fines
+            </div>
+            <div class="quiz_app_quiz_next_btn">
+                Next
+            </div>
+            <div class="quiz_app_quiz_previous_btn">
+                Previous
+            </div>
+
+        </div>
+
+        <div class="quiz_app_question_navigator_box">
+            <div class="quiz_app_question_navigator_sub_box"> </div>
+        </div>
+
+        <!--<div class="quiz_app_footer_navbar">
+            <div class="quiz_app_footer_navbar_option">
+                <svg id="side_menu_option_1_inner_svg" aria-hidden="true" focusable="false" data-prefix="fas"
+                    data-icon="home" class="svg-inline--fa fa-home fa-w-18" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path id="side_menu_option_1_inner_svg_path" fill="currentColor"
+                        d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+                    </path>
+                </svg>
+            </div>
+            <div class="quiz_app_footer_navbar_option">
+                <svg id="side_menu_option_5_inner_svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="bi bi-bell-fill" viewBox="0 0 16 16">
+                    <path id="side_menu_option_5_inner_svg_path"
+                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z">
+                    </path>
+                </svg>
+            </div>
+            <div class="quiz_app_footer_navbar_option">
+                <svg id="side_menu_option_2_inner_svg" aria-hidden="true" focusable="false" data-prefix="fas"
+                    data-icon="user-circle" class="svg-inline--fa fa-user-circle fa-w-16" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path id="side_menu_option_2_inner_svg_path" fill="currentColor"
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z">
+                    </path>
+                </svg>
+            </div>
+            <div class="quiz_app_footer_navbar_option">
+                <svg id="side_menu_option_14_inner_svg" aria-hidden="true" focusable="false" data-prefix="fas"
+                    data-icon="cog" class="svg-inline--fa fa-cog fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path id="side_menu_option_14_inner_svg_path" fill="currentColor"
+                        d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z">
+                    </path>
+                </svg>
+            </div>
+        </div>-->
+
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="side_menu.js"></script>-->
+
+</body>
+
+</html>
